@@ -1,0 +1,14 @@
+body{
+	background-color: tomato;
+	color: white;
+	margin: auto;
+	width: 300px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+li {
+	padding: 5px;
+}

@@ -1,0 +1,20 @@
+<html> <!-- Exercicio 17: Calcular o valor final de um carro -->
+
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <script>
+        var pFabri, pLucro, pImp, lDist, vImp, vFinal;
+        pFabri = parseFloat(prompt("Informe o valor gasto com a fabricação: "));
+        pLucro = parseFloat(prompt("Informe o percentual de lucro: "));
+        pImp = parseFloat(prompt("Informe o percentual dos impostos: "));
+        lDist = pFabri * (pLucro / 100);
+        vImp = (pFabri + lDist) * (pImp / 100);
+        vFinal = pFabri + lDist + vImp;
+        alert("O Valor final do carro ao consumidor será de:" + vFinal + "\n" +
+                "O lucro do distribuidor será: " + lDist + "\n" + 
+                "O valor do imposto será: " + vImp)
+    </script>
+
+</html>

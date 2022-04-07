@@ -1,2 +1,3 @@
-# tec_desenvolvimento_de_sistemas
- p/ anotações das aulas e exercicios
+<h1>Repositorio para guardar exercicios do curso</h1>
+<h3>Tecnico em desenvolvimento de sistemas</h3>
+

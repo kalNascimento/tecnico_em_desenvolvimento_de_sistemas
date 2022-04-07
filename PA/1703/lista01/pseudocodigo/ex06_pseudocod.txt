@@ -1,0 +1,10 @@
+inicio:
+    var: HT, VH, salaraio real
+    receba: HT, VH
+    se HT > 160
+        salario = (160 * VH) + ((HT - 160) * (VH + (VH*0.5)))
+    senão
+        salario = HT * VH
+    fim-se
+    exibir: "O salario será de: R$" + salario.toFixed(2)
+fim:

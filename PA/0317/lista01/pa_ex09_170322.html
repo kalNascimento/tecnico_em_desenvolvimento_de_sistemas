@@ -1,0 +1,52 @@
+<html> <!-- Exercicio 1: Calcular área do circulo -->
+    
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <script>
+        var n1, n2, n3, n4;
+        n1 = parseFloat(prompt("Insira o primeiro valor: "));
+        n2 = parseFloat(prompt("Insira o segundo valor: "));
+        n3 = parseFloat(prompt("Insira o terceiro valor: "));
+        n4 = parseFloat(prompt("Insira o quarto valor: "));
+
+        if(n4 > n3)
+        {
+            if(n3 > n2)
+            {
+                if(n2 >= n1)
+                {
+                    alert(n3 + n4) // X
+                }
+            }
+            else if (n2 > n1){
+                alert(n2 + n4)
+            }
+            else 
+            {
+                alert(n1 + n4)
+            }
+        }
+        else if(n3 > n2)
+        {
+            if(n2 > n1)
+            {
+                alert(n2 + n3) // X
+            }
+            else
+            {
+                alert(n1 + n3)
+            }
+        }
+        else
+        {
+            alert(n1 + n2)
+        }
+
+
+
+
+    </script>
+
+</html>

@@ -1,0 +1,23 @@
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <script>
+        var HT, VH, salaraio;
+        HT = parseInt(prompt("Insira o numero de horas trabalhadas: "));
+        VH = parseInt(prompt("Insira o valor da hora trabalhada: "));
+
+        if(HT > 160)
+        {
+            salario = (160 * VH) + ((HT - 160) * (VH + (VH*0.5)));
+        }
+        else
+        {
+            salario = HT * VH;
+        }
+        alert("O salario será de: R$" + salario.toFixed(2));
+    </script>
+
+</html>

@@ -1,0 +1,20 @@
+<html> <!-- Exercicio 4: Conversão de medidas -->
+    
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <script>
+        var pes, pol, jardas, milhas;
+        pes = parseFloat(prompt("Insira a medida em pés:"));
+        // math.raound n funcionou trocar p/ pol.toFixed(1)
+        pol = pes * 12;
+        jardas = pes / 3;
+        milhas = jardas / 1760;
+        alert("A conversão de pés p/ polegadas, jardas e milhas é:\n" + 
+                pol.toFixed(8) +" polegadas,\n" +
+                jardas.toFixed(8) + " jardas,\n" +
+                milhas.toFixed(8) + " milhas.\n");
+    </script>
+
+</html>

@@ -1,0 +1,36 @@
+1- receber o 1º numero, 2º numero, 3º numero e 4º numero(n1, n2, n3, n4)
+
+2- se n1 for maior ou igual a n2 E maior ou igual a n3 E maior ou igual a n4,
+    E  
+    se n2 for maior ou igual a n3 e maior ou igual a n4, exibir o resultado de n1+n2
+    SENÃO  
+    se n3 for maior ou igual a n2 e maior ou igual a n4, exibir o resultado de n1+n3
+    SENÃO
+    se n4 for maior ou igual a n2 e maior ou igual a n3, exibir o resultado de n1+n4
+
+3- se n1 não for maior, verificar se n2 é o maior, n2 maior ou igual a n3 E n2 maior ou igual a n4
+    E
+    se n1 for maior ou igual a n3 e maior ou igual a n4, exibir o resultado de n2+n1
+    SENÃO
+    se n3 for maior ou igual a n1 e maior ou igual a n4, exibir o resultado de n2+n3
+    SENÃO
+    se n4 for maior ou igual a n1 e maior ou igual a n3, exibir o resultado de n2+n4
+
+4- se n1 e nem n2 forem os maiores, verificar se o n3 é o maior, n3 maior ou igual a n4
+    E
+    se n1 for maior ou igual a n2 e maior ou igual a n4, exibir o resultado de n1+n3
+    SENÃO
+    se n2 for maior ou igual a n1 e maior ou igual a n4, exibir o resultado de n2+n3
+    SENÃO
+    se n4 for maior ou igual a n1 e maior ou igual a n2, exibir o resultado de n4+n3
+
+5- caso nenhum dos 3 seja o maior, n4 é o maior e verificar o segundo maior ou igual
+    se n1 for maior ou igual a n2 e maior ou igual a n3, exibir o resultado de n1+n4
+    SENÃO
+    se n2 for maior ou igual a n1 e maior ou igual a n3, exibir o resultado de n2+n4
+    SENÃO
+    se n3 for maior ou igual a n1 e maior ou igual a n2, exibir o resultado de n3+n4
+
+
+
+

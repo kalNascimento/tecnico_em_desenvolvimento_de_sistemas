@@ -1,0 +1,19 @@
+<html> <!-- Exercicio 7: Calcular salario -->
+    
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <script>
+        var ht, vt, sb, desc, sl;
+        ht = parseFloat(prompt("Insira a quantidade de horas trabalhadas: "));
+        vt = parseFloat(prompt("Insira o valor da hora trabalhada: "));
+        sb = ht * vt;
+        desc = sb * (11/100);
+        sl = sb - desc;
+        document.write("O salario bruto é: R$" + sb.toFixed(2) + "<br>" +
+                        "O valor descontado é: R$" + desc.toFixed(2) + "<br>" +
+                        "O salario liquido é: R$" + sl.toFixed(2));
+    </script>
+
+</html>

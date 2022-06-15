@@ -1,0 +1,4 @@
+1- receba o numero de maças(nMaca)
+2- se nMaca for menos que 12, o preço da maça será: precoMaca = nMaca * 1.3
+3- caso contrario o preço da maça será: precoMaca = nMaca
+4- Exibir o preço da maça

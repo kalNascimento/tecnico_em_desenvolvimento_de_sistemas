@@ -1,0 +1,10 @@
+inicio:
+    var: nMaca, precoMaca; real
+    receba: nMaca
+    se nMaca < 12
+        precoMaca = nMaca * 1.3
+    senão
+        precoMaca = nMaca
+    fim-se
+    exibir: precoMaca
+fim:

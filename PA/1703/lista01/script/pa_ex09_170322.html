@@ -1,0 +1,83 @@
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <script>
+        var n1, n2, n3, n4;
+        n1 = parseFloat(prompt("Insira o primeiro valor: "));
+        n2 = parseFloat(prompt("Insira o segundo valor: "));
+        n3 = parseFloat(prompt("Insira o terceiro valor: "));
+        n4 = parseFloat(prompt("Insira o quarto valor: "));
+
+        // rodada N1
+        if(n1 >= n2 && n1 >= n3 && n1 >= n4)
+        {
+            if(n2 >= n3 && n2 >= n4)
+            {
+                alert(n1 + n2)
+            }
+            else if(n3 >= n2 && n3 >= n4)
+            {
+                alert(n1 + n3)
+            }
+            else if(n4 >= n2 && n4 >= n3)
+            {
+                alert(n1 + n4)
+            }
+        }
+
+        // rodada N2
+        else if(n2 >= n3 && n2 >= n4)
+        {
+            if(n1 >= n3 && n1 >= n4)
+            {
+                alert(n2 + n1)
+            }
+            else if(n3 >= n1 && n3 >= n4)
+            {
+                alert(n2 + n3)
+            }
+            else if(n4 >= n1 && n4 >= n3)
+            {
+                alert(n2 + n4)
+            }
+        }
+
+        // rodada N3
+        else if(n3 >= n4)
+        {
+            if(n1 >= n2 && n1 >= n4)
+            {
+                alert(n1 + n3)
+            }
+            else if(n2 >= n1 && n2 >= n4)
+            {
+                alert(n2 + n3)
+            }
+            else if(n4 >= n1 && n4 >= n2)
+            {
+                alert(n4 + n3)
+            }
+        }
+
+        // rodada N4
+        else
+        {
+            if(n1 >= n2 && n1 >= n3)
+            {
+                alert(n1 + n4)
+            }
+            else if(n2 >= n1 && n2 >= n3)
+            {
+                alert(n2 + n4)
+            }
+            else if(n3 >= n1 && n3 >= n2)
+            {
+                alert(n3 + n4)
+            }
+        }
+    </script>
+
+</html>

@@ -1,0 +1,4 @@
+1- receba nota e nota2
+2- calcule a media, media = (nota + nota2)/2
+3- se media for maior q 6, exibir aluno aprovado
+4- senão aluno reprovado

@@ -1,0 +1,23 @@
+Bram Cohen (12 de outubro de 1975) é um cientista da computação mais conhecido como o criador do protocolo BitTorrent . Ele também é o co-fundador da conferência Codecon  (in) , o organizador da reunião Bay Area P2P-hackers e co-autor do codeville de controle de versão distribuída de software (in) .  
+https://en.wikipedia.org/wiki/Chia_(cryptocurrency)
+Biografia
+
+Cohen cresceu em Manhattan. Ele aprendeu a linguagem de programação BASIC aos 5 anos no computador da família, um Timex Sinclair. Formou-se na Stuyvesant High School em 1999 , e matriculou-se na University of Buffalo (Nova York). Ele a deixou para trabalhar em várias empresas de Internet em meados da década de 1990, a última sendo a MojoNation, um projeto no qual ele estava trabalhando com Jim McCoy, mas não conseguiu concluir.
+MojoNation permite que arquivos confidenciais sejam cortados em pacotes criptografados e os distribui para computadores equipados com este software. Essa ideia, Cohen pensa, é perfeita para programas ponto a ponto: se programas como o KazaA demoram muito para baixar arquivos grandes, é porque o arquivo geralmente é baixado de uma única fonte ou ponto . Cohen, portanto, projeta o BitTorrent , capaz de baixar arquivos de várias fontes; portanto, a velocidade de download é aumentada, especialmente para usuários que gostam de alta velocidade. Assim, quanto mais populares forem os arquivos, mais rápido será o download para o usuário, pois se várias pessoas fizerem download do mesmo arquivo simultaneamente, também enviarão os dados para outros usuários.
+Dentro Abril de 2001, Cohen deixa a MojoNation e começa seu trabalho no BitTorrent . Cohen revela sua invenção na primeira conferência da CodeCon - um evento que ele criou com seu colega de quarto Len Sassama, ambos decepcionados com as conferências de tecnologia.
+Durante o verão de 2002, Cohen coletou imagens pornográficas para atrair os testadores beta do programa [ref. necessário] . O software está ganhando notoriedade graças à comunidade Linux , cujos membros apreciam poder trocar enormes arquivos de software livre . Mas seu verdadeiro sucesso é que permite compartilhar rapidamente grandes arquivos (música ou filmes). O próprio Cohen afirma que nunca violou a lei de direitos autorais ao usar seu software e suspeita que a MPAA (American Film Association) o esteja observando de perto para dar um exemplo, se apropriado. Isso não o impede de afirmar que os meios de comunicação atuais estão desatualizados, apesar de suas tentativas legais ou técnicas de se proteger, como a “  gestão de direitos digitais  ”. DentroMaio de 2005, Cohen está lançando uma versão beta do BitTorrent sem um servidor rastreador.
+No final de 2003, Cohen juntou-se à Valve Software para trabalhar no Steam , o sistema digital distribuído introduzido no Half-Life 2 . Ele deixou a Valve no início de 2005 e sua principal fonte de renda foram as doações feitas por usuários do BitTorrent.
+No final de 2005, Cohen fez um acordo com a Motion Picture Association of America para remover todos os links para conteúdo ilegal no site oficial do BitTorrent. O acordo é feito com os sete maiores estúdios americanos. A partir de agora, nos termos do acordo, bittorrent.com cumprirá as principais linhas da Lei de Direitos Autorais do Milênio Digital .
+Cohen acredita que sofre de "autismo de alto nível" ( síndrome de Asperger ). É a essa forma de autismo que ele deve, segundo ele, suas faculdades de concentração e também suas dificuldades de relacionamento. Ele atualmente mora na área da baía de San Francisco com sua esposa, Jenna e filhos.
+
+Outros interesses
+
+Alguns dos hobbies de Cohen incluem fazer origami e fazer malabarismos com cinco bolas. Acima de tudo, ele aprecia a "  matemática recreativa  ". Cohen tem um blog onde fala frequentemente de métrica  de confiança (in) com Raph Levien  (in) , bem como monetária, do cubo de Rubik e outras matérias de matemática.
+
+Prêmios
+
+2005: Prêmio TR35 ( revista MIT Technology Review)
+
+2005: as 100 pessoas mais influentes da Time (entre as 100 pessoas mais influentes em 2005)
+
+2006: Prêmio USENIX STUG

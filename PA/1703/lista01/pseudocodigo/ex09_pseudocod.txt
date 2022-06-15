@@ -1,0 +1,58 @@
+inicio:
+    var: n1, n2, n3, n4; real
+    receba: n1, n2, n3, n4
+
+    se  n1 >= n2 && n1 >= n3 && n1 >= n4
+        se n2 >= n3 && n2 >= n4
+            exibir: n1 + n2
+        senão
+            se n3 >= n2 && n3 >= n4
+                exibir: n1 + n3
+            senão
+                se n4 >= n2 && n4 >= n3
+                    exibir: n1 + n4
+                fim-se
+            fim-se
+        fim-se
+    senão
+        se n2 >= n3 && n2 >= n4
+            se n1 >= n3 && n1 >= n4
+                exibir: n2 + n1
+            senão
+                se n3 >= n1 && n3 >= n4
+                    exibir: n2 + n3
+                senão
+                    se n4 >= n1 && n4 >= n3
+                        exibir: n2 + n4
+                    fim-se
+                fim-se
+            fim-se
+        fim-se
+    senão
+        se n3 >= n4
+            se n1 >= n2 && n1 >= n4
+                exibir: n1 + n3
+            senão 
+                se n2 >= n1 && n2 >= n4
+                    exibir: n2 + n3
+                senão 
+                    se n4 >= n1 && n4 >= n2
+                        exibir: n4 + n3
+                    fim-se
+                fim-se
+            fim-se
+        fim-se
+    senão
+        se n1 >= n2 && n1 >= n3
+            exibir: n1 + n4
+        senão 
+            se n2 >= n1 && n2 >= n3
+                exibir: n2 + n4
+            senão 
+                se n3 >= n1 && n3 >= n2
+                    exibir: n3 + n4
+                fim-se
+            fim-se
+         fim-se   
+    fim-se
+fim:

@@ -1,0 +1,10 @@
+inicio:
+    var: salario, vendas, salComi; real
+    receba: salario, vendas
+    se vendas <= 1500
+        salComi = salario + (vendas * 0.3)
+    senão
+        salComi = salario + (1500 * 0.03) + ((vendas - 1500) * 0.05)
+    fim-se
+    exibir: "O salario comissionado será: " + salComi.toFixed(2)
+fim:

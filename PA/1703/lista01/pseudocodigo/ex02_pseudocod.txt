@@ -1,0 +1,10 @@
+inicio:
+    var: nota, nota2, media; real
+    receba: nota, nota2
+    media = (nota + nota2)/2
+    se media > 6
+        exibir: "A média do aluno é: " + media + " e ele foi APROVADO"
+    senão
+        exibir: "A média do aluno é: " + media + " e ele foi REPROVADO"
+    fim-se
+fim:

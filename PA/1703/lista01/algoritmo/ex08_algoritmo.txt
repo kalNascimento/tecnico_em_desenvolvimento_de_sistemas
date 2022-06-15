@@ -1,0 +1,3 @@
+1- receba o primeiro e o segundo numero (n1 e n2)
+2- se n1 for maior q n2, exibir o resultado de n1*2
+3- se não exibir o resultado de n2/2

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR WARS - Clone Wars Animation</title>
+    <link rel="stylesheet" href="./assets/css/animation.css"> <!--Linka os arquivos de estilo-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-black"> <!--seta a cor do body -->
+    <header class="flex-center animation"> <!--seta o layout no centro e habilita animação-->
+        <figure class="flex-center">
+            <img class="logo" src="./assets/img/star_wars_logo.png" alt="Logo Star Wars Clone Wars"> <!--logo da pagina-->
+        </figure>
+        <nav class="flex-center w-main ptb-16">
+            <ul class="grid-col-5"> <!--layout de grid e lista para menu-->
+                <li>
+                    <a href="#home"> <!-- ancoda para o modal-->
+                        <button class="button border-radius bg-yellow">Home</button> <!-- ancoda para o modal-->
+                    </a>
+                </li>
+                <li>
+                    <a href="#episodios">
+                        <button class="button border-radius bg-yellow">Episodios</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#locais">
+                        <button class="button border-radius bg-yellow">Locais</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#downloads">
+                        <button class="button border-radius bg-yellow">Downloads</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://starwars.fandom.com/pt/wiki/P%C3%A1gina_principal" target="_blank">
+                        <button class="button border-radius bg-yellow">Wiki</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-center">
+        <figure class="pos-absolute"> <!-- area da animação inicial da pagina-->
+            <div>
+                <img id="darth-vader" class="op-0" src="./assets/img/darth_vader2.png" alt="darth vader perfil">
+            </div>
+            <div>
+                <img id="sabre-plasma" class="op-0" src="./assets/img/sabre_plasma2.png " alt="plasma do sabre">
+                <img id="sabre-cabo" class="pos-absolute op-0" src="./assets/img/sabre_cabo.png" alt="sabre de luz cabo">
+            </div>
+        </figure>
+        <div class="container w-main op-100 bg-main animation"> <!-- area pricipal da pagina-->
+            <div class="w-main mh-main pos-absolute modal bg-main border op-100 test" id="home">
+                <div class="mg-16">
+                    <div class="flex-content-center">
+                        <div class="flex-col">
+                            <div>
+                                <a href="#episodios">
+                                    <figure> <!--semantica para inseção de imagens-->
+                                        <img class="img-main mg-16" src="./assets/img/ep1-emboscada.jpg" alt="Uma imagem referente ao ep1">
+                                    </figure>
+                                </a>
+                                <p class="text-pos-main">[EPISODIO 1] - Emboscada</p>
+                            </div>
+                            <div class="flex-row mg-16">
+                                <div>
+                                    <a href="#episodios"> <!--ancora q leva a episodios-->
+                                        <figure>
+                                            <img class="img-sec" src="./assets/img/ep2-ascensao.jpg" alt="Uma imagem referente ao ep2">
+                                        </figure>
+                                    </a>
+                                    <p class="text-pos-sec">[EPISODIO 2] - Ascensão da Malevolência</p>
+                                </div>
+                                <a href="#episodios">
+                                    <figure>
+                                        <img class="img-sec" src="./assets/img/ep3-escuridao.jpg" alt="Uma imagem referente ao ep3">
+                                    </figure>
+                                </a>
+                                <p class="text-pos-sec">[EPISODIO 3] - Escuridão da Malevolência</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-center flex-row p-tb-32 border mg-lf-32 mg-b-32">
+                        <h2>Sobre</h2>
+                        <div>
+                            <hr class="mg-16"> <!--linha decorativa-->
+                            <p class="plr-32 text-s-line"><b class="text-color">Star Wars: The Clone Wars</b> é uma série de animação em 3D criada por George Lucas e produzida pela empresa estadunidense Lucasfilm. A série foi baseada no filme homônimo lançado em 2008 e destacou-se como uma grande série original do Cartoon Network. No Brasil, a série foi exibida primeiramente pelo canal fechado Cartoon Network, com estreia em 13 de fevereiro de 2009, e pela Rede Globo, na televisão aberta. Em Portugal, a sua exibição ficou por conta do canal SIC. A sexta temporada foi publicada pela Netflix e está sendo reexibida agora todas as quintas a partir das 05:20 da tarde, substituindo as sessões de filme da tarde.</p>
+                            <p class="plr-32 text-s-line">Em 19 de julho de 2018, a Lucasfilm anunciou na San Diego Comic-Con que a série seria revivida com 12 novos episódios a serem lançados no serviço de streaming da Disney, previsto inicialmente para 2019, e depois para 2020. Em 21 de fevereiro de 2020, a sétima e última temporada estreou no serviço de streaming Disney+, sendo exibida até hoje. Os personagens estão ligeiramente diferentes do que nas temporadas anteriores, devido a aproximação dos eventos de Star Wars: Episódio III - A Vingança dos Sith.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-main mh-main pos-absolute modal bg-main border op-0" id="episodios"> <!--modal episodios-->
+                <div class="mg-32">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <img class="w-img" src="./assets/img/ep1.jpg">
+                        <div>
+                        <h4 class="plr-32">EPISODIO 1</h4>
+                        <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="mg-32">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <img class="w-img" src="./assets/img/ep2.jpg">
+                        <div>
+                        <h4 class="plr-32">EPISODIO 2</h4>
+                        <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="mg-32">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <img class="w-img" src="./assets/img/ep3.jpg">
+                        <div>
+                        <h4 class="plr-32">EPISODIO 3</h4>
+                        <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="mg-32">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <img class="w-img" src="./assets/img/ep4.jpg">
+                        <div>
+                        <h4 class="plr-32">EPISODIO 4</h4>
+                        <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                    </figure>
+                </div>
+                <p class="text-center mg-64 text-color text-s-letter"> < .1 .2 .3 .4 .5 .6 ></p>
+            </div>
+            <div class="w-main mh-main pos-absolute modal bg-main border op-0" id="locais"> <!--modal de locais-->
+                <div class="mg-32">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <img class="w-img" src="./assets/img/kamino.jpg">
+                        <div>
+                            <h4 class="plr-32">Kamino</h4>
+                            <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="mg-64">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <div>
+                            <h4 class="plr-32">EPISODIO 1</h4>
+                            <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                        <img class="w-img" src="./assets/img/coruscant.jpg">
+                    </figure>
+                </div>
+                <div class="mg-32">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <img class="w-img" src="./assets/img/tatooine.jpg">
+                        <div>
+                            <h4 class="plr-32">EPISODIO 1</h4>
+                            <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="mg-64">
+                    <figure class="flex-content-center border ptb-32 plr-32">
+                        <div>
+                            <h4 class="plr-32">EPISODIO 1</h4>
+                            <p class="plr-32 ptb-16 text-s-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto saepe magni minus cupiditate commodi consequatur natus dolores molestias totam accusantium, rem possimus, quibusdam, voluptas aliquid! Tenetur consequatur quasi unde?</p>
+                        </div>
+                        <img class="w-img" src="./assets/img/geonosis.jpg">
+                    </figure>
+                </div>
+                <p class="text-center mg-64 text-color text-s-letter"> < .1 .2 .3 .4 .5 .6 ></p> <!--seletor de pagina ilustrativo-->
+            </div>
+            <div class="w-main mh-main pos-absolute modal bg-main border op-0" id="downloads"> <!--modal downloads-->
+                <figure>
+                    <p class="text-center pt-32 text-format text-color">Wallpapers</p>
+                    <div class="grid-col-2-row-2 p-tb-32 mg-lf-128">
+                        <img class="img-downloads " src="./assets/img/wallpaper1.jpg" alt="Wallpaper personagens">
+                        <img class="img-downloads" src="./assets/img/wallpaper2.jpg" alt="Wallpaper personagens 2">
+                        <img class="img-downloads" src="./assets/img/wallpaper3.jpg" alt="Wallpaper 2 clones armados">
+                        <img class="img-downloads" src="./assets/img/wallpaper4.jpg" alt="Wallpeper Darth Vader com o sabre azul">
+                    </div>
+                    <p class="text-center pt-32 text-format text-color">Videos</p>
+                    <div class="grid-col-2-row-2 p-tb-32 mg-lf-128">
+                        <img class="img-downloads" src="./assets/img/star_wars_logo.png" alt="Star wars the clone wars logo">
+                        <img class="img-downloads" src="./assets/img/star_wars_logo.png" alt="Star wars the clone wars logo">
+                        <img class="img-downloads" src="./assets/img/star_wars_logo.png" alt="Star wars the clone wars logo">
+                        <img class="img-downloads" src="./assets/img/star_wars_logo.png" alt="Star wars the clone wars logo">
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <Footer class="flex-center op-100 animation mg-64"> <!--copyright-->
+        <p class="text-color mg-64">Kal Nascimento</p>
+        <p class="text-color">Copyright &copy, 2022</p>
+    </Footer>
+</body>
+</html>

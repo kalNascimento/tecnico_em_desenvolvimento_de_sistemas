@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:#02182b;
+    font-size: 14px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    padding: 5px 0 5px 0;
+}
+
+th {
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 32px;
+}
+
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+td:nth-child(2) {
+    background-color: light#072540;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.list-contato {
+    list-style: none;
+}
+
+p {
+    font-size: 12px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.username {
+    background-color: #072540;
+    width: 400px;
+    height: 125px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.foto-perfil {
+    background-color: #033E8C;
+    width: 300px;
+}
+
+.desenvolvedor {
+    font-size: 16px;
+}
+
+.left-tittle {
+    background-color: #033E8C;
+}
+
+.right-tittle, .desenvolvedor{
+    background-color: #072540;
+}
+
+.desc-perfil {
+    font-size: 12px;
+    padding: 32px 8px 32px 32px;
+}
+
+td:nth-child(2) {
+    background-color: #E6E6E6;
+}
+
+.list-contato li:nth-child(1) {
+    padding-top: 8px;
+}
+.list-contato li:last-child{
+    padding-bottom: 5px;
+}
+
+.list-contato li {
+    padding-top: 10px;
+    padding-left: 32px;
+}
+
+.desc-experiencia {
+    padding: 32px 8px 32px 32px;
+}
+
+.desc-experiencia p:nth-child(3),
+.desc-experiencia p:nth-child(6),
+.desc-experiencia p:nth-child(9) {
+    padding-bottom: 64px;
+}
+
+.desc-experiencia p:nth-child(2),
+.desc-experiencia p:nth-child(5),
+.desc-experiencia p:nth-child(8) {
+    color: #033E8C;
+}
+
+.desc-habilidades li {
+    margin-left: 50px;
+    color: #033E8C;
+}
+
+.desc-habilidades li:first-child {
+    margin-top: 10px;
+}
+
+.desc-habilidades li:nth-child(2),
+.desc-habilidades li:nth-child(3),
+.desc-habilidades li:nth-child(4),
+.desc-habilidades li:nth-child(5),
+.desc-habilidades li:nth-child(6){
+    margin-top: 10px;
+}
+
+.desc-habilidades li:last-child {
+    margin-bottom: 24px;
+}
+
+.desc-formacao p:nth-child(2),
+.desc-formacao p:nth-child(5){
+    color: #033E8C;
+}
+
+.desc-formacao p:nth-child(3),
+.desc-formacao p:nth-child(6){
+    margin-bottom: 32px;
+}
+.desc-formacao{
+    background-color: #E6E6E6;
+    padding-left: 32px;
+}

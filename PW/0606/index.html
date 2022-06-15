@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nomeAluno, primeiroNome, segundoNome;
+        let primeiraNota = 0;
+        let segundaNota = 0;
+        let media = [];
+        let materia = ['A', 'B', 'C', 'D'];
+
+        nomeAluno = prompt('Informe o nome do aluno e sobrenome do aluno');
+        
+        for(i=0; i < nomeAluno.length; i++){
+            if(nomeAluno[i] === ' '){
+                console.log('ok')
+                primeiroNome = nomeAluno.slice(0, i)
+                segundoNome = nomeAluno.slice(i+1)
+                console.log(primeiroNome, segundoNome);
+            }
+        }
+        
+
+        for(let i = 0; i <= 3; i++){
+            primeiraNota = parseFloat(prompt(`Informe da primeira nota da materia ${materia[i]}: `));
+            segundaNota = parseFloat(prompt(`Informe da primeira nota da materia ${materia[i]}: `));
+            media.push(Media(primeiraNota, segundaNota).toString());
+        }
+        
+        document.write(`Aluno: ${primeiroNome} ${segundoNome.toUpperCase()}<br><br>
+                        Média na materia A: ${media[0]}<br>
+                        Média na materia B: ${media[1]}<br>
+                        Média na materia C: ${media[2]}<br>
+                        Média na materia D: ${media[3]}<br>`)
+
+                        
+        function Media(primeiraNota, segundaNota){
+            return (primeiraNota + segundaNota) / 2
+        }
+    </script>
+</body>
+</html>

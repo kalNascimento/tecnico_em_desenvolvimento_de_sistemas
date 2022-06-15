@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(cyan,magenta,yellow);
+}
+
+#titulo1{
+    background: linear-gradient(red,green,blue);
+    color: white;
+}
+
+#titulo2{
+    background: linear-gradient(blue,green,red);
+    color: white;
+}
+
+#titulo3{
+    background-color: cyan;
+    color: yellow;
+}
+
+#titulo4{
+    background-color: magenta;
+    color: cyan;
+}
+
+#titulo5{
+    background-color: yellow;
+    color: magenta;
+}

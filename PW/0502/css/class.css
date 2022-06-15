@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 500px;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.center{
+    color: white;
+    background-color: red;
+    text-align: justify;
+}

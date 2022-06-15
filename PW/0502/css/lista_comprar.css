@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    background-color: darkgoldenrod;
+}
+
+label{
+    font-size: 1.4rem;
+    color: white;
+}
+
+#lista-compras1 {
+    background-color: darkolivegreen;
+    /*border: 10px double (green blue darkmagenta red);*/
+    border: 2px solid;
+    border-color: green blue darkmagenta red;
+    width: 400px;
+    padding: 10px;
+}
+
+#lista-compras2 {
+    background-color: darkolivegreen;
+    border: 20px dotted yellow;
+    width: 400px;
+    padding: 10px;
+}
+
+#lista-compras3 {
+    background-color: darkolivegreen;
+    border: 20px double red;
+    width: 400px;
+    padding: 10px;
+}
+
+.item{
+    /*border: 0.1px solid red;*/
+    margin-left: 20px;
+    border-bottom: 0.1px solid white;
+    color: white;
+}

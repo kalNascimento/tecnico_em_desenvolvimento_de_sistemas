@@ -1,0 +1,168 @@
+<link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
+Andrew S. Tanenbaum
+https://stringfixer.com/pt/Andrew_Tanenbaum
+Andy Tanenbaum
+Andrew S. Tanenbaum 2012.jpg
+Tanenbaum em 2012
+Nascer	Andrew Stuart Tanenbaum
+16 de março de 1944 (77 anos)
+Cidade de Nova York , Nova York, EUA
+Nacionalidade	Holandês [ carece de fontes ] / americano
+Alma mater	Instituto de Tecnologia de Massachusetts,
+Universidade da Califórnia, Berkeley
+Conhecido por	MINIX
+Microkernels
+Electoral-vote.com
+Carreira científica
+Campos	Computação distribuída [1] [2]
+Sistemas operacionais [3] [4]
+Tese	Um estudo das oscilações de cinco minutos, supergranulação e fenômenos relacionados na atmosfera solar  (1971)
+Orientador de doutorado	John M. Wilcox
+Alunos de doutorado	Henri Bal
+Frans Kaashoek
+Werner Vogels [5]
+Local na rede Internet	www .cs .vu .nl / ~ ast
+www .pearsonhighered .com / tanenbaum
+Andrew Stuart Tanenbaum (nascido em 16 de março de 1944), às vezes referido pelo apelido ast , [6] é um cientista da computação holandês-americano e professor emérito de ciência da computação na Vrije Universiteit Amsterdam, na Holanda . [7] [8]
+
+Ele é mais conhecido como o autor do MINIX , um sistema operacional gratuito semelhante ao Unix para fins de ensino e por seus livros de ciência da computação, considerados textos padrão na área. Ele considera seu trabalho de ensino como seu trabalho mais importante. [9] Desde 2004, ele opera Electoral-vote.com , um site dedicado à análise de dados de votação em eleições federais nos Estados Unidos .
+
+Conteúdo
+1 biografia
+2 Ensino
+2.1 Livros
+2.2 Alunos de doutorado
+2.3 Reitor da Escola Avançada de Computação e Imagem
+3 projetos
+3.1 Amsterdam Compiler Kit
+3.2 MINIX
+3.3 Projetos de pesquisa
+3.4 Electoral-vote.com
+4 Debate Tanenbaum-Torvalds
+5 prêmios
+5.1 Doutorados Honorários
+6 palestras principais
+7 referências
+8 links externos
+Biografia
+Tanenbaum nasceu na cidade de Nova York e cresceu no subúrbio de White Plains, Nova York . Ele é judeu . [10] Seu avô paterno nasceu em Khorostkiv, no império austro-húngaro . [11]
+
+Ele recebeu seu diploma de bacharel em Física pelo MIT em 1965 e seu Ph.D. graduado em astrofísica pela University of California, Berkeley, em 1971. Tanenbaum também atuou como lobista do Sierra Club . [12] [ citação completa necessária ]
+
+
+ 
+Ele se mudou para a Holanda para morar com sua esposa, que é holandesa, mas ele mantém sua cidadania dos Estados Unidos . Ele ministra cursos sobre Organização de Computadores e Sistemas Operacionais e supervisiona o trabalho de Ph.D. candidatos na VU University Amsterdam . Em 9 de julho de 2014, ele anunciou sua aposentadoria. [13]
+
+Ensino
+Livros
+Tanenbaum é bem conhecido por seus livros de ciência da computação. Eles incluem:
+
+Organização Estruturada de Computadores [14] (1976)
+Redes de Computadores, em co-autoria com David J. Wetherall e Nickolas Feamster [15] (1981)
+Sistemas Operacionais: Design e Implementação , em coautoria com Albert Woodhull [16] (1987)
+Modern Operating Systems [3] (1992)
+Distributed Operating Systems [4] (1994)
+Sistemas Distribuídos: Princípios e Paradigmas, em co-autoria com Maarten van Steen [2] (2001)
+Seu livro, Operating Systems: Design and Implementation e MINIX foram a inspiração de Linus Torvalds para o kernel Linux . Em sua autobiografia Just for Fun , Torvalds o descreve como "o livro que me lançou a novas alturas".
+
+Seus livros foram traduzidos para vários idiomas, incluindo árabe, basco, búlgaro, chinês, holandês, francês, alemão, grego, hebraico, húngaro, italiano, japonês, coreano, macedônio, espanhol mexicano, persa, polonês, português, romeno, russo, Sérvio e espanhol. [17] Eles apareceram em mais de 175 edições e são usados ​​em universidades de todo o mundo. [18]
+
+Alunos de doutorado
+Tanenbaum teve vários Ph.D. estudantes que se tornaram pesquisadores amplamente conhecidos em ciência da computação. Esses incluem:
+
+Henri Bal , professor da Vrije Universiteit em Amsterdã
+Frans Kaashoek , professor do MIT
+Sape Mullender, pesquisadora da Bell Labs
+Robbert van Renesse, professor da Cornell University
+Leendert van Doorn, distinto engenheiro da Microsoft Corporation
+Werner Vogels , Diretor de Tecnologia da Amazon.com [5]
+Reitor da Escola Avançada de Computação e Imagem
+No início da década de 1990, o governo holandês começou a estabelecer várias escolas de pesquisa de orientação temática que abrangiam várias universidades. Essas escolas deveriam trazer professores e doutores. estudantes de diferentes universidades holandesas (e posteriormente estrangeiras) juntos para ajudá-los a cooperar e aprimorar suas pesquisas.
+
+Tanenbaum foi um dos cofundadores e primeiro Reitor da Escola Avançada de Computação e Imagem (ASCI). Esta escola consistia inicialmente de cerca de 200 membros do corpo docente e Ph.D. alunos da Vrije Universiteit , da University of Amsterdam , da Delft University of Technology e da Leiden University . Eles estavam trabalhando especialmente em problemas em sistemas de computador avançados, como computação paralela e análise e processamento de imagens.
+
+
+ 
+Tanenbaum permaneceu reitor por 12 anos, até 2005, quando foi premiado com o cargo de professor da Academia pela Academia Real Holandesa de Artes e Ciências , quando se tornou professor pesquisador em tempo integral. Desde então, o ASCI cresceu para incluir pesquisadores de quase uma dúzia de universidades na Holanda, Bélgica e França. ASCI oferece Ph.D. cursos de nível, tem uma conferência anual e oferece vários workshops todos os anos.
+
+Projetos
+Amsterdam Compiler Kit
+O Amsterdam Compiler Kit é um kit de ferramentas para a produção de compiladores portáteis. Foi iniciado algum tempo antes de 1981 e Andrew Tanenbaum foi o arquiteto desde o início até a versão 5.5. [19]
+
+MINIX
+Em 1987, Tanenbaum escreveu um clone do UNIX , chamado MINIX (MINi-unIX), para o IBM PC . Ele foi direcionado a estudantes e outras pessoas que queriam aprender como um sistema operacional funcionava. Conseqüentemente, ele escreveu um livro que listava o código-fonte em um apêndice e o descrevia em detalhes no texto. [20] O próprio código-fonte estava disponível em um conjunto de disquetes. Em três meses, um newsgroup da Usenet , comp.os.minix, surgiu com mais de 40.000 assinantes discutindo e melhorando o sistema. Um desses assinantes era um estudante finlandês chamado Linus Torvalds , que começou a adicionar novos recursos ao MINIX e a adaptá-lo às suas próprias necessidades. Em 5 de outubro de 1991, Torvalds anunciou o seu próprio (Kernel do tipo POSIX ), chamado Linux , que originalmente usava o sistema de arquivos MINIX, mas não é baseado no código MINIX. [21]
+
+Embora o MINIX e o Linux tenham divergido, o MINIX continua a ser desenvolvido, agora como um sistema de produção e também educacional. [22] O foco está na construção de um sistema operacional altamente modular, confiável e seguro. O sistema é baseado em um microkernel , com apenas 5000 linhas de código em execução no modo kernel. [23] O resto do sistema operacional é executado como uma série de processos independentes no modo de usuário, incluindo processos para o sistema de arquivos, gerenciador de processos e cada driver de dispositivo. O sistema monitora continuamente cada um desses processos e, quando uma falha é detectada, muitas vezes é capaz de substituir automaticamente o processo com falha sem uma reinicialização, sem perturbar os programas em execução e sem que o usuário perceba. MINIX 3, como a versão atual é chamada, está disponível gratuitamente sob a licença BSD .
+
+Pesquisar projetos
+Tanenbaum também esteve envolvido em vários outros projetos de pesquisa nas áreas de sistemas operacionais, sistemas distribuídos e computação ubíqua, muitas vezes como supervisor de doutorado. alunos ou um pesquisador de pós - doutorado . Esses projetos incluem:
+
+Amoeba [24]
+Globe [25]
+Mansão [ carece de fontes? ]
+Orca [26]
+Paramecium [27]
+RFID Guardian [28]
+Tartaruga F2F
+Electoral-vote.com
+Em 2004, Tanenbaum criou o Electoral-vote.com , um site que analisa as pesquisas de opinião para as Eleições Presidenciais dos Estados Unidos de 2004 , usando-as para projetar o resultado no Colégio Eleitoral . Ele afirmou que criou o site como um americano que "sabe em primeira mão o que o mundo pensa da América e não é uma imagem bonita no momento. Quero que as pessoas pensem na América como a terra da liberdade e da democracia, não a terra de arrogância e vingança cega. Eu quero ter orgulho da América novamente. " [29]O site forneceu um mapa codificado por cores, atualizado a cada dia com projeções para os votos eleitorais de cada estado. Durante a maior parte do período da campanha, Tanenbaum manteve sua identidade em segredo, referindo-se a si mesmo como "o Votemaster" e reconhecendo apenas que preferia pessoalmente John Kerry . Mencionando que apoiava os democratas , revelou sua identidade em 1º de novembro de 2004, véspera da eleição, e também indicou suas razões e qualificações para administrar o site. [29]
+
+Por meio do site, ele também cobriu as eleições de meio de mandato de 2006 , prevendo corretamente o vencedor de todas as 33 corridas para o Senado naquele ano.
+
+
+ 
+Para as eleições de 2008 , ele acertou em todos os estados, exceto Indiana, que ele disse que McCain venceria por 2% (Obama venceu por 1%) e Missouri, que ele disse estar perto demais (McCain venceu por 0,1%). Ele previu corretamente todos os vencedores no Senado, exceto Minnesota, onde previu uma vitória de 1% de Norm Coleman sobre Al Franken . Após 7 meses de disputas legais e recontagens, Franken venceu por 312 votos (0,01%).
+
+Em 2010, ele projetou corretamente 35 das 37 disputas para o Senado nas eleições de meio de mandato no site. As exceções foram Colorado e Nevada .
+
+Electoral-vote.com previu incorretamente que Hillary Clinton venceria as eleições presidenciais de 2016 nos Estados Unidos . O site previu incorretamente que Clinton venceria Wisconsin, Michigan, Pensilvânia, Carolina do Norte e Flórida. Electoral-vote.com não previu um vencedor para Nevada, que Clinton venceria. O site previu os vencedores dos 44 estados restantes e do Distrito de Columbia corretamente. [30]
+
+Debate Tanenbaum-Torvalds
+O debate Tanenbaum-Torvalds foi um famoso debate entre Tanenbaum e Linus Torvalds sobre o projeto do kernel na Usenet em 1992. [31]
+
+Prêmios
+Companheiro da ACM
+Bolsista do IEEE
+Membro da Academia Real de Artes e Ciências da Holanda (1994) [32]
+Eurosys Lifetime Achievement Award, 2015
+Doutor honorário pela Universidade Petru Maior, Targu Mures, Romênia, 2011
+Vencedor do prêmio TAA McGuffey para livros clássicos de sistemas operacionais modernos, 2010
+Coautor do Prêmio de Melhor Artigo na Conferência LADC, 2009
+Vencedor de uma Subvenção Avançada do Conselho Europeu de Pesquisa de 2,5 milhões de euros , 2008
+USENIX Flame Award 2008 [33] por suas muitas contribuições ao projeto de sistemas e à abertura tanto na discussão quanto na fonte
+Doutor honorário da Universidade Politécnica de Bucareste, Romênia
+Coautor do Prêmio de Melhor Artigo da Real-Time and Network Systems Conf., 2008
+Vencedor da medalha de educação IEEE James H. Mulligan, Jr. 2007 [34]
+Coautor do Prêmio de Melhor Artigo na USENIX LISA Conf., 2006
+Co-autor do Best Paper for High Impact no IEEE Percom Conf., 2006
+Professor da Academia, 2004
+Vencedor do Prêmio PPAP 2005 de melhor educação em software de ciência da computação
+Vencedor do prêmio TAA McGuffey de 2003 para livros clássicos de redes de computadores
+Vencedor do Prêmio TAA Texty de 2002 para novos livros didáticos
+Vencedor do ACM SIGCSE de 1997 por contribuições para o ensino de ciência da computação
+Vencedor do Prêmio Educador de Destaque da ACM Karl V. Karlstrom de 1994
+Co-autor do Prêmio de Papel Distinto ACM SOSP de 1984
+Doutorados honorários
+Tanenbaum em Târgu Mureș
+Tanenbaum é 4º da esquerda
+Em 12 de maio de 2008, Tanenbaum recebeu um doutorado honorário da Universitatea Politehnica din București . O prêmio foi entregue na Câmara Acadêmica do Senado, após a qual Tanenbaum proferiu uma palestra sobre sua visão do futuro da área de informática. O diploma foi concedido em reconhecimento ao trabalho de carreira de Tanenbaum, que inclui cerca de 150 artigos publicados, 18 livros (que foram traduzidos para mais de 20 idiomas) e a criação de um grande corpo de software de código aberto, incluindo o Amsterdam Compiler Kit, Amoeba, Globe e MINIX.
+Em 7 de outubro de 2011, Universitatea Petru Maior din Târgu Mureș ( Universidade Petru Maior de Târgu Mureș) concedeu a Tanenbaum o título de Doutor Honoris Causa (doutorado honorário) por seu notável trabalho no campo da ciência da computação e realizações na educação. A comunidade acadêmica está homenageando sua devoção ao ensino e pesquisa com este prêmio. Na cerimônia, o Chanceler, o Reitor, o Decano da Faculdade de Ciências e Letras e outros falaram sobre Tanenbaum e seu trabalho. O pró-reitor leu então a 'laudatio', resumindo as realizações de Tanenbaum. Isso inclui seu trabalho desenvolvendo MINIX (o predecessor do Linux), o RFID Guardian, seu trabalho no Globe, Amoeba e outros sistemas, e seus muitos livros sobre ciência da computação, que foram traduzidos em muitos idiomas, incluindo romeno, e que são utilizado na Universidade Petru Maior.
+Palestras principais
+Tanenbaum foi o orador principal em várias conferências, mais recentemente
+
+Evento online RIOT Summit 2020 , 14 de setembro de 2020.
+FrOSCon 2015 Sankt Augustin, Alemanha, 22 de agosto de 2015
+BSDCan 2015 Ottawa, Canadá, 12 de junho de 2015
+HAXPO 2015 Amsterdam 28 de maio de 2015
+Codemotion 2015 Roma Itália, 28 de março de 2015
+SIREN 2010 [ link morto permanente ] Veldhoven, Holanda, 2 de novembro de 2010
+FOSDEM Bruxelas, Bélgica, 7 de fevereiro de 2010
+NSCNE '09 [ link morto permanente ] Changsha, China, 5 de novembro de 2009
+Conferência do E-Democracy 2009 Atenas, Grécia, 25 de setembro de 2009
+Conferência gratuita e de código aberto Sankt Augustin, Alemanha, 23 de agosto de 2008
+XV Semana Informática Arquivado em 2020-05-28 na Wayback Machine do Instituto Superior Técnico , Lisboa, Portugal, 13 de março de 2008
+Conferência do aniversário de 25 anos da NLUUG , Amsterdã, 7 de novembro de 2007
+linux.conf.au em Sydney, Austrália, 17 de janeiro de 2007
+Festival Acadêmico de TI em Cracóvia, Polônia, 23 de fevereiro de 2006 (2ª edição)
+Simpósio ACM sobre Princípios do Sistema Operacional , Brighton, Inglaterra, 24 de outubro de 2005
+Referências

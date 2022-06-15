@@ -1,0 +1,15 @@
+tabela filmes
+
+idfilme int primary key auto_increment
+titulo varchar(20) not null
+duracao varchar(3) not null
+diretor varchar(40) 
+data date
+
+tabela salas
+
+idsala int primary key auto_increment
+nomesala varchar(20)
+npoltronas int not null
+visualizacao char(2) not null
+

@@ -1,0 +1,4 @@
+1- receber valor do salario e numero de vendas
+2- se as vendas forem menos q 1500, o salario c/ comisão deverá ser, salComi = salario + (vendas * 0.3)
+3 se não o salario com comissão será: salComi = salario + (1500 * 0.03) + ((vendas - 1500) * 0.05)
+4- exibir o salario ao final

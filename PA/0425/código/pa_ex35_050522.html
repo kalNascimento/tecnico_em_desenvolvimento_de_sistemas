@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var cod = 0, qttd = 0, str = '', total = 0;
+
+        do{
+            cod = parseInt(prompt("Informe o código do produto"))
+            qttd = parseFloat(prompt("Informe a qttd do produto"))
+
+            switch (cod){
+                case 100:case 103:
+                    total += (qttd * 1.10)
+                break;
+
+
+                case 101:case 104:
+                    total += (qttd * 1.30)
+                break;
+
+                case 102:
+                    total += (qttd * 1.50)
+                break;
+
+                case 105:
+                total += (qttd * 1)
+                break;
+
+                default:
+                break;
+            }
+
+            str = prompt("Deseja pedir mair alguma coisa?")
+
+        }while(str.toLocaleUpperCase() !== 'N');
+        
+        alert(`O total do pedido é: ${total.toFixed(2)}`);
+    </script>
+</body>
+</html>

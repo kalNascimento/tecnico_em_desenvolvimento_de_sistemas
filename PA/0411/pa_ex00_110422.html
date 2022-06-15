@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n1, n2, r, op;
+        op = 0;
+        op = prompt("Seleciona a operação matematica:\n+ para adição\n- para subtração\n* para multiplicação\n/ para divisão");
+        n1 = parseFloat(prompt("Informe o primeiro numero: "));
+        n2 = parseFloat(prompt("Informe o segundo numero: "));
+
+        switch (op) 
+        {
+            case '+':
+                alert("Adição")
+                r = n1 + n2;
+                break;
+
+            case '-':
+                alert("Subtração")
+                r = n1 - n2;
+                break;
+            
+            case '*':
+            alert("Multiplicação")
+                r = n1 * n2;
+                break;
+
+            case '/':
+                alert("Divisão")
+                if(n1 > 0 && n2 > 0)
+                {
+                    r = n1 / n2;
+                }
+                else
+                {
+                    alert("error")
+                }
+                break;
+            default:
+                alert("Opção invalida")
+                break;
+        }
+        alert("O resultado é: " + r)
+    </script>
+</body>
+</html>

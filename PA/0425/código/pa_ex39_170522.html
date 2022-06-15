@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let numeroSala = 0, numeroAlunos = 0, notasAlunos = 0,
+            media, loop = 1, maiorMedia = 0, menorMedia = 0, str = '', mediaAnt = 0;
+
+        numeroSala = parseInt(prompt(`Informe o numero de salas ${loop}`));
+
+        while (loop <= numeroSala) {
+            console.log(`Sala ${loop}`)
+            numeroAlunos = parseInt(prompt("Informe o numero de alunos dessa sala"))
+            for (let i = 1; i <= numeroAlunos; i++) {
+                let assis = parseFloat(prompt("Informe a nota do aluno"))
+                notasAlunos += assis;
+                console.log(`Nota aluno ${i}: ${assis}`)
+                media = (notasAlunos / numeroAlunos);
+                if (i === numeroAlunos) {
+                    str += `media da sala ${loop}: ${media}\n`;
+                    console.log(`A media da sala é ${media}`)
+
+                    if (media >= maiorMedia) {
+                        maiorMedia = media;
+                    } else if (media <= maiorMedia || media <= menorMedia) {
+                        menorMedia = media;
+                    }
+                }
+            }
+            loop++;
+            notasAlunos = 0;
+        }
+        console.log(`Médias\n${str}`);
+        console.log(`A maior media de sala é: ${maiorMedia}`);
+        console.log(`A menor media de sala é: ${menorMedia}`);
+        /*for(let i = 0; i <= numeroSala; i++){
+            //console.log(str)
+            if(str[i] > str[i+1]){
+                maiorMedia = str[i]
+            } else {
+                maiorMedia = str[i+1]
+            }
+        }
+        console.log(maiorMedia)*/
+    </script>
+</body>
+
+</html>

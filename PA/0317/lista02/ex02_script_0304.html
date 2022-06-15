@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var delta, a, b, c, x1, x2, y;
+        alert("Sendo uma equação de 2º grau composta com 'ax2 + bx + c = 0'")
+        a = parseFloat(prompt("Insira o valor de A: "))
+        b = parseFloat(prompt("Insira o valor de B: "))
+        c = parseFloat(prompt("Insira o valor de C: "))
+        delta = (b*b) - (4 * a * c); // ∆ = b2 -4 * a * c
+
+        if(delta >= 0 && a != 0)
+        {
+            if(delta == 0) // x = (-b) / (2 * a)
+            {
+                x1 = (-b) / (2 * a);
+                alert("Só existe uma raiz e é: " + x1);
+            }
+            else if(delta > 0) // x1 = (-b + ∆)/ (2 * a) || x2 = (-b - ∆)/ (2 * a)
+            {
+                x1 = (-b + (Math.pow(delta,0.5)))/ (2 * a);
+                x2 = (-b - (Math.pow(delta,0.5)))/ (2 * a);
+                y = ((a*(x1*x1))+(b*x1)+c);
+                alert("Existem duas raizes e são elas: x1= " + y + "e x2= " + x2);
+            }
+        }
+        else
+        {
+            alert("Não existem raizes reais")
+        }
+        
+        if(((a*(x1*x1))+(b*x1)+c) == 0)
+        {
+            if(((a*(x2*x2))+(b*x2)+c) == 0)
+            {
+                alert("A raiz " + x1 + " e" + x2 + " estam corretas");
+            }
+        }
+        else
+        {
+            alert("error")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var op, n1, n2, result, str;
+        op = 0;
+        op = prompt("CALCULADORA\NESCOLHA UMA OPERAÇÃO\n"+
+        "DIGITE + PARA SOMA\n"+
+        "DIGITE - PARA SUBTRAÇÃO\n"+
+        "DIGITE / PARA DIVISÃO\n"+
+        "DIGITE * PARA MULTIPLICAÇÃO\n"+
+        "DIGITE RAD PARA RADICIAÇÃO\n"+
+        "DIGITE POT PARA POTENCIAÇÃO");
+
+        if(op != null){
+            if(op.length == 1){
+                n1 = parseFloat(prompt("Informe o primeiro numero"));
+                n2 = parseFloat(prompt("Informe o segundo valor numero"));
+                switch (op.toUpperCase())
+                {
+                    case "+":
+                        result = n1 + n2;
+                        str = "soma";
+                        break;
+
+                    case "-":
+                        result = n1 - n2;
+                        str = "subtação";
+                        break;
+
+                    case "/":
+                        if (n2 > 0){
+                            result = n1 / n2
+                            str = "divisão"
+                        }
+                        else{alert("error")}
+                        break;
+
+                    case "*":
+                        result = n1 * n2;
+                        str = "multiplicação";
+                        break;
+                    default:
+                        alert("error")
+                        break;
+                }
+            }
+            else{
+                switch (op.toUpperCase())
+                {
+                    case "RAD":
+                        n1 = parseFloat(prompt("Informe o numero"));
+                        result = Math.pow(n1, 0.5);
+                        str = `raiz de ${n1}`;
+                        break;
+
+                    case "POT":
+                        n1 = parseFloat(prompt("Informe o numero da base"));
+                        n2 = parseFloat(prompt("Informe o numero do expoente"));
+                        str = `potecia de ${n1} ^ ${n2}`;
+                        break;
+                }
+            }
+        alert(`O resultado da ${str} é ${result}`)
+        }
+    </script>
+</body>
+</html>

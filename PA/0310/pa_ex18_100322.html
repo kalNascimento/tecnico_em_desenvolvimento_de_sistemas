@@ -1,0 +1,16 @@
+<html> <!-- Exercicio 18: Calcular a quantidade de ração q vai sobrar dps de 5 dias -->
+    
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <script>
+        var rInicial, rFinal, rGato1, rGato2;
+        rInicial = parseFloat(prompt("Quanto de ração foi comprado? "));
+        rGato1 = parseFloat(prompt("Quanto de ração foi dado p/ o primeiro gato? "));
+        rGato2 = parseFloat(prompt("Quanto de ração foi dado p/ o segundo gato? "));
+        rFinal = ((rInicial * 1000) - ((rGato1 * 5) + (rGato2 * 5)));
+        alert("Sobrou " + rFinal + "g ou \n" + (rFinal.toFixed(2)/1000) + "Kg de ração depois de 5 dias.");
+    </script>
+
+</html>

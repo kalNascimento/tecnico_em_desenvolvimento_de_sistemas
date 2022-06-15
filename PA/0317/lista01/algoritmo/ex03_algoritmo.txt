@@ -1,0 +1,4 @@
+1- receba o ano de nascimento (ano)
+2- calcule se a pessoa pode votar, iVote = 2022 - ano
+3- se iVote for maior ou igual a 16, a pessoa pode votar
+4- se não, a pessoa n pode votar

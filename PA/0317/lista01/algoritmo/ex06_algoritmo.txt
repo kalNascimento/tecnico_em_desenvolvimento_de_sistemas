@@ -1,0 +1,4 @@
+1- receba horas trabalhas (HT), valor da hora trabalhada (VT)
+2- se HT for maior q 160, o salario devera ser, salario = (160 * VH) + ((HT - 160) * (VH + (VH*0.5)))
+3- se não, salario = HT * VT
+4- exibir salario 

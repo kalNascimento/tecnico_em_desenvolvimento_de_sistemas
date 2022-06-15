@@ -1,0 +1,9 @@
+inicio:
+    var: n1, n2; real
+    receba: nMaca
+    se n1 > n2
+        exibir: "Os numeros em ordem crescente são: " + n2 + ", " + n1
+    senão
+        exibir: "Os numeros em ordem crescente são: " + n1 + ", " + n2
+    fim-se
+fim:

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numero = 0; count = 0; i = 0, men = 0;
+
+        numero = parseInt(prompt("Informe um numero inteiro"));
+
+        while(i <= numero){
+            if(numero % i === 0){
+                count++
+            }
+            i++
+        }
+        if(count === 2){
+            alert(`O numero ${numero} é primo`);
+        }else{
+            alert(`O numero ${numero} não é primo`);
+        }
+    </script>
+</body>
+</html>

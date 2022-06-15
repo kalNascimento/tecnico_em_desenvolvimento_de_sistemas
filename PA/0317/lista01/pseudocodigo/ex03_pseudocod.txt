@@ -1,0 +1,9 @@
+inicio:
+    var: ano, iVote; int
+    receba: iVote
+    se iVote >= 16
+        exibir: "Parabens vc pode votar"
+    senão
+        exibir: "Infelizmente talvez ano q vem"
+    fim-se
+fim:

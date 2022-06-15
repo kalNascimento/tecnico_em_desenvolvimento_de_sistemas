@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number = 0, cont = 0, cont2 = 0;
+
+        while(cont < 10){
+            number = parseFloat(prompt("Informe um numero"))
+            if(number >= 10 && number <= 20){
+                cont2++;
+            }  
+            cont++;
+        }
+        alert(`${cont2} estão entre 10 e 20, e ${10-cont2} não estão`)
+    </script>
+</body>
+</html>

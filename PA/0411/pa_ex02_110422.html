@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var m1, m2, op, calc, str;
+
+        fm = parseInt(prompt("Informe o formato geometrico desejado\n1 - Retangulo\n2 - Triangulo\n3 - Circulo\n4 - Losango"));
+
+        switch (fm) 
+        {
+            case 1:
+                m1 = parseFloat(prompt("Informe a base"))
+                m2 = parseFloat(prompt("Informe a altura"))
+                calc = m1 * m2;
+                alert(`A area do retângulo é: ${calc}\ne o perimetro é: ${m2}`)
+                break;
+            
+            case 2:
+                m1 = parseFloat(prompt("Informe a base"))
+                m2 = parseFloat(prompt("Informe a altura"))
+                calc = (m1 * m2)/2;
+                str = "triangulo"
+                break
+            
+            case 3:
+                m1 = parseFloat(prompt("Informe o raio"))
+                m2 = 2 * 3.1415 * m1;
+                calc = 3.1415 * m1;
+                alert(`A area do circulo é: ${calc.toFixed(2)}\ne a circunferencia é: ${m2.toFixed(2)}}`)
+                break;
+            
+            case 4:
+                m1 = parseFloat(prompt("Informe a diagonal menor"))
+                m2 = parseFloat(prompt("Informe a diagonal maior"))
+                calc = (m1 * m2)/2;
+                str = "Losango"
+                break
+        }
+        if(fm == 2 || fm == 4){
+            alert(`A area do ${str} é: ${calc}`)
+        }
+    </script>
+    
+</body>
+</html>

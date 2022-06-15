@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var precoProduto, codProduto, precProduto;
+
+        codProduto = parseInt(prompt("informe o código do produto"));
+        precoProduto = parseFloat(prompt("Informe o preço do produto"));
+
+        if(Number.isInteger(codProduto) && codProduto < 11){
+            switch (codProduto)
+            {
+                case 1:
+                    precProduto = "Sul";
+                    break;
+                
+                case 2:
+                    precProduto = "Norte";
+                    break;
+                
+                case 3:
+                    precProduto = "Leste";
+                    break;
+                
+                case 4: case 5: case 6:
+                    precProduto = "Oeste";
+                    break;
+                
+                case 7: case 8:
+                    precProduto = "Nordeste";
+                    break;
+                
+                case 9:
+                    precProduto = "Suldeste";
+                    break;
+                
+                case 10:
+                precProduto = "Centro-Oeste";
+                    break;
+
+                default:
+                    alert("Error");
+                    break
+            }
+        }
+        alert(`O cód. do produto é ${codProduto}, o preço é ${precoProduto}\nProcedencia: ${precProduto}`)
+    </script>
+</body>
+</html>

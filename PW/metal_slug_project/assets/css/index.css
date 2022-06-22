@@ -1,0 +1,190 @@
+@import url(./presets.css);
+
+header {
+    background-color: var(--black-50);
+    width: 100%;
+    height: 64px;
+    border-bottom: 4px solid transparent;
+    border-image: url('../img/pixel_components/border_s1te.png') 20 round;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-index {
+    background-color: var(--black-90);
+    width: 100%;
+    min-height: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+.footer-index div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.logo-container {
+    height: 80px;
+}
+
+#login-button {
+    background: url("../img/pixel_components/button_site_1.png");
+    background-size: 8.9vw 42.7px;
+}
+
+#login-button:hover {
+    background: url("../img/pixel_components/button_site_1_hover.png");
+    background-size: 8.9vw 42.7px;
+}
+
+#register-button {
+    background: url("../img/pixel_components/button_site_2.png");
+    background-size: 8.9vw 42.7px;
+}
+
+#register-button:hover {
+    background: url("../img/pixel_components/button_site_2_hover.png");
+    background-size: 8.9vw 42.7px;
+}
+
+.menu-button {
+    background: url("../img/pixel_components/button_site_3.png");
+    background-size: 8.9vw 42.7px;
+}
+
+.menu-button:hover {
+    background: url("../img/pixel_components/button_site_3_hover.png");
+    background-size: 8.9vw 42.7px;
+}
+
+.menu-container{
+    position: absolute;
+    top: 10.65px;
+}
+
+.login-container{
+    position: absolute;
+    right: 0;
+    top: 10.65px;
+}
+
+.video-background {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: -60px;
+    z-index: -1;
+}
+
+.video-background img {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+.video-foreground {
+    display: block;
+    margin: 32px auto 0 auto;
+    width: 48vw;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-image: url('../img/pixel_components/border_s1te.png') 20 round; 
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .button-header {
+        border: none;
+        width: 86px;
+        height: 42.7px;
+        text-decoration: none;
+    }
+
+    #login-button {
+        background: url("../img/pixel_components/button_site_1.png");
+        background-size: 86px 42.7px;
+    }
+    
+    #login-button:hover {
+        background: url("../img/pixel_components/button_site_1_hover.png");
+        background-size: 86px 42.7px;
+    }
+    
+    #register-button {
+        background: url("../img/pixel_components/button_site_2.png");
+        background-size: 86px 42.7px;
+    }
+    
+    #register-button:hover {
+        background: url("../img/pixel_components/button_site_2_hover.png");
+        background-size: 86px 42.7px;
+    }
+    
+    .menu-button {
+        background: url("../img/pixel_components/button_site_3.png");
+        background-size: 86px 42.7px;
+    }
+    
+    .menu-button:hover {
+        background: url("../img/pixel_components/button_site_3_hover.png");
+        background-size: 86px 42.7px;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 35px;
+        grid-row-gap: 0px;
+    }
+    
+    .logo-container {
+        height: 66px;
+    }
+
+    .mg-l-32 {
+        margin-left: 16px;
+    }
+
+    .mg-l-64 {
+        margin-left: 16px;
+    }
+
+    .mg-r-64{
+        margin-right: 16px;
+    }
+
+    img {
+        width: 20%;
+    }
+    
+    .video-foreground {
+        margin: 64px auto 0 auto;
+        width: 90%;
+    }
+
+    .footer-index {
+        background-color: var(--black-90);
+        width: 100%;
+        height: 90px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}

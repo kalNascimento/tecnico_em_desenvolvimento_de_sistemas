@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --white-90: #fafafa;
+    --black-90: #0D0D0D;
+    --black-50: #1E1E1E;
+    --black-30: #7A7A7A;
+    --yellow-90: #f2cb05;
+    --yellow-70: #f5d637;
+    --yellow-30: #f8e275;
+    --gold-90: #f29f05;
+    --gold-70: #f5b337;
+    --gold-30: #f8ca75;
+    --orange-90: #f27405;
+    --orange-70: #f59037;
+    --orange-30: #f69f53;
+    --red-80: #d93d04;
+    --red-70: #e16437;
+    --red-30: #ea9475;
+}
+
+/*Margin*/
+.mg-l-8 { margin-left: 8px;}
+.mg-l-16 { margin-left: 16px;}
+.mg-l-32 { margin-left: 32px;}
+.mg-l-64 { margin-left: 64px;}
+
+.mg-r-8 { margin-right: 8px;}
+.mg-r-16 { margin-right: 16px;}
+.mg-r-32 { margin-right: 32px;}
+.mg-r-64 { margin-right: 64px;}
+
+.mg-t-8 { margin-top: 8px;}
+.mg-t-16 { margin-top: 16px;}
+.mg-t-32 { margin-top: 32px;}
+.mg-t-64 { margin-top: 64px;}
+
+.mg-b-8 { margin-bottom: 8px;}
+.mg-b-16 { margin-bottom: 16px;}
+.mg-b-32 { margin-bottom: 32px;}
+.mg-b-64 { margin-bottom: 64px;}
+
+
+/*Padding*/
+.pd-l-8 { padding-left: 16px;}
+.pd-l-16 { padding-left: 16px;}
+.pd-l-32 { padding-left: 16px;}
+.pd-l-64 { padding-left: 16px;}
+
+.pd-r-8 { padding-right: 8px;}
+.pd-r-16 { padding-right: 16px;}
+.pd-r-32 { padding-right: 32px;}
+.pd-r-64 { padding-right: 64px;}
+
+.pd-t-8 { padding-top: 8px;}
+.pd-t-16 { padding-top: 16px;}
+.pd-t-32 { padding-top: 32px;}
+.pd-t-64 { padding-top: 64px;}
+
+.pd-b-8 { padding-bottom: 8px;}
+.pd-b-16 { padding-bottom: 16px;}
+.pd-b-32 { padding-bottom: 32px;}
+.pd-b-64 { padding-bottom: 64px;}
+
+.op-0 {
+    opacity: 0;
+}
+
+.op-1 {
+    opacity: 1;
+}
+
+/* Layout */
+.flex-display{
+    display: flex;
+}
+
+.inline-block-display {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-header {
+    border: none;
+    width: 8.9vw;
+    height: 42.7px;
+}
+
+.error-message{
+    font-size: 0.7em;
+    color: var(--red-80);
+    margin: 8px 0 16px 0;
+    opacity: 0;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(../font/Minecraft.ttf);
+}
+
+
+button {
+    font-family: pixel;
+}
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vetor = [1, 2, 3, 4, 5, 6, 7, 5, 9, 10];
+        let finalVetor = [];
+
+        for(i = 0; i < 10; i++){
+            for(i2 = vetor[i]; i2 < 10; i2++){
+                if(vetor[i] === vetor[i2]){
+                    finalVetor.push(vetor[i]);
+                }
+            }
+        }
+        alert(`Os números iguais dentro do vetor são: ${finalVetor}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="">
+        <!--Area de identificação corporativa-->
+        <div class="inline-block-display mg-l-32">
+            <figure class="logo-container">
+                <a href="https://www.snk-corp.co.jp/us/" target="_blank">
+                    <img class="" src="./assets/img/snk_logo.svg" width="150" height="50" alt="Logo da empresa SNK"> <!-- tag p/ inserção de imagem-->
+                </a>
+                <a href="https://store.steampowered.com/app/366250/METAL_SLUG/" target="_blank">
+                    <img class="pd-t-8 mg-l-8" src="./assets/img/metal-slug-logo.png" width="50" height="50" alt="Logo do jogo Metal Slug">
+                </a>
+            </figure>
+        </div>
+        <!--Menu de navegação-->
+        <div class="inline-block-display mg-l-64 mg-b-16">
+            <nav>
+                <ul>
+                    <li class="inline-block-display">
+                        <a href="index.html">
+                            <button class="menu-button button-header">Home</button>
+                        </a>
+                    </li>
+                    <li class="inline-block-display">
+                        <a href="thegame.html">
+                            <button class="menu-button button-header">O Jogo</button>
+                        </a>
+                    </li>
+                    <li class="inline-block-display">
+                        <a href="forum.html">
+                            <button class="menu-button button-header">Forum</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Menu de usuário-->
+        <div class="inline-block-display login-container mg-r-64">
+            <a href="user.html#register">
+                <button id="register-button" class="button-header">Cadastrar</button>
+            </a>
+            <a href="user.html#login">
+                <button id="login-button" class="button-header">Entrar</button>
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <div>
+                <figure class="video-background"> <!-- autoplay muted-->
+                    <img src="./assets/img/background.png">
+                </figure>
+                <video class="video-foreground" controls> <!-- autoplay muted-->
+                    <source src="./assets/img/videos/video-teaser.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-index">
+        <div>
+            <p>Dev by Kal Nascimento</p>
+            <p>Copyright &copy;, 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

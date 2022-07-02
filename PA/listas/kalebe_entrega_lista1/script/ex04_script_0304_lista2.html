@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var altura, sexo, peso;
+        altura = parseFloat(prompt("Informe a altura"));
+        sexo = prompt("Informe o sexo");
+        
+        if(sexo == "M" || sexo == "m" || sexo == "masculino")
+        {
+            peso = (72.7 * altura) - 58;
+        }
+        else if (sexo == 'F' || sexo == 'f' || sexo == 'feminino')
+        {
+            peso = (62.1 * altura) - 44.7;
+        }
+        alert("seu peso ideial é: " + peso.toFixed(2))
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vetor = [];
+        let parte1 = [];
+        let parte2 = [];
+
+        for(i=0; i<16; i++){
+            vetor.push(parseInt(prompt('Informe um número')))
+        }
+        
+        alert(`O vetor informado foi: [${vetor}]`)
+
+        for(i = 0; i < 8; i++){
+            parte1.push(vetor[i])
+        }
+
+        for(i = 8; i < 16; i++){
+            parte2.push(vetor[i])
+        }
+        
+        let newVetor = [].concat(parte2,parte1)
+        alert(`O novo vetor é: ${vewVetor}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url(./index.css);
+
+body {
+    background-image: url(../img/metal-slug-logo.png);
+    background-size: 90px 90px ;
+    background-repeat: repeat;
+}
+
+main {
+    background-color: #fff;
+    width: 50vw;
+    min-height: 500px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0px 32px 16px 32px;
+    padding-top: 32px;
+}
+
+p {
+    text-indent: 16px;
+    font-size: 16px;
+    margin: 32px 32px 0px 32px;
+}
+
+.content-2 {
+    padding-bottom: 64px;
+}
+
+.content-1 {
+    padding-bottom: 64px;
+}
+
+footer {
+    margin-top: 64px;
+    background-color: var(--black-90);
+    width: 100%;
+    min-height: 150px;
+    color: white;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 120px;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 35px;
+        grid-row-gap: 0px;
+    }
+    
+    .logo-container {
+        height: 66px;
+    }
+
+    .mg-l-32 {
+        margin-left: 16px;
+    }
+
+    .mg-l-64 {
+        margin-left: 16px;
+    }
+
+    .mg-r-64{
+        margin-right: 16px;
+    }
+
+    img {
+        width: 20%;
+    }
+    
+    section {
+        width: 300px;
+        height: 100%;
+        padding-top: 32px;
+    }
+
+    main {
+        width: 90%;
+    }
+}

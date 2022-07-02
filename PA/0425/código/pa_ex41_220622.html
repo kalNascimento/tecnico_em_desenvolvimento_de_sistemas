@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let vetor = [];
+        let vetor2 = [];
+        let vetorFinal = [];
+        let numero;
+
+        for(i = 0; i < 10; i++){
+            vetor.push(parseInt(prompt(`Insira 10 números, vc ja inseriu: ${vetor.length}`)));
+        }
+        numero = parseInt(prompt("Insira um numero para para verificar seus múltiplos"))
+        for(i = 0; i < 100; i++){
+            vetor2.push(numero*i)
+        }
+
+        for(i = 0; i < 100; i++){
+            for(i2 = 0; i2 < 10; i2++){
+                if(vetor[i2] === vetor2[i] && vetor2[i] !== 0){
+                    vetorFinal.push(vetor2[i])
+                }
+            }
+        }
+        alert(`O vetor é: ${vetor}\n\ne os múltiplos encontrados são:\n${vetorFinal}`)
+    </script>
+</body>
+
+</html>

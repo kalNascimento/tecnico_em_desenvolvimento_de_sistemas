@@ -1,16 +1,19 @@
-var count = 0, count2 = 0, resultado = '';
+let vetor = [1, 2, 2, 4, 5, 6, 7, 5, 9, 10];
+        let finalVetor = [];
 
-        while(count <= 10){
-            while(count2 <= 10){
-				if(count2 === 10){
-					resultado += count2 + '.';
-				} else {
-					resultado += count2 + ",";
-					
-				}
-				count2++;
+        for(i = 0; i < 10; i++){
+            for(i2 = vetor[i]; i2 < 10; i2++){
+                if(vetor[i] === vetor[i2]){
+                    finalVetor.push(vetor[i]);
+                }
             }
-			let str = count + ',' + resultado
-            count++;
-			console.log(str)
         }
+console.log(`Os números iguais dentro do vetor são: ${finalVetor}`);
+
+
+
+
+vetor [1, 2, 3]
+vetor [ 1, 2, 3]
+
+

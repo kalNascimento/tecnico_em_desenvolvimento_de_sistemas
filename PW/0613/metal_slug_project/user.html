@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/user.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="">
+        <!--Area de identificação corporativa-->
+        <div class="inline-block-display mg-l-32">
+            <figure class="logo-container">
+                <a href="https://www.snk-corp.co.jp/us/" target="_blank">
+                    <img class="" src="./assets/img/snk_logo.svg" width="150" height="50" alt="Logo da empresa SNK"> <!-- tag p/ inserção de imagem-->
+                </a>
+                <a href="https://store.steampowered.com/app/366250/METAL_SLUG/" target="_blank">
+                    <img class="pd-t-8 mg-l-8" src="./assets/img/metal-slug-logo.png" width="50" height="50" alt="Logo do jogo Metal Slug">
+                </a>
+            </figure>
+        </div>
+        <!--Menu de navegação-->
+        <div class="inline-block-display mg-l-64 mg-b-16">
+            <nav>
+                <ul>
+                    <li class="inline-block-display">
+                        <a href="index.html">
+                            <button class="menu-button button-header">Home</button>
+                        </a>
+                    </li>
+                    <li class="inline-block-display">
+                        <a href="thegame.html">
+                            <button class="menu-button button-header">O Jogo</button>
+                        </a>
+                    </li>
+                    <li class="inline-block-display">
+                        <a href="forum.html">
+                            <button class="menu-button button-header">Forum</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Menu de usuário-->
+        <div class="inline-block-display login-container mg-r-64">
+            <a href="user.html#register">
+                <button id="register-button" class="button-header">Cadastrar</button>
+            </a>
+            <a href="user.html#login">
+                <button id="login-button" class="button-header">Entrar</button>
+            </a>
+        </div>
+    </header>
+    
+    <main class="mg-t-32">
+        <section>
+            <div class="user-container modal" id="login">
+                <div class="form-container mg-t-64">
+                    <form action="javascript: ValidationForm();">
+                        <label>
+                            Email ou Username
+                            <input class="form-input" type="text" placeholder="Email / Username">
+                            <p class="error-message" id="error-email">error</p>
+                        </label>
+                        <label>
+                            Senha
+                            <input class="form-input" type="password" placeholder="password">
+                            <p class="error-message" id="error-password">error</p>
+                        </label>
+                        <button class=" button-header fixed-button" type="submit" id="login-button">Login</button>
+                    </form>
+                </div>
+            </div>
+            <div class="user-container modal" id="register">
+                <div class="form-container">
+                    <form method="post" action="javascript: ValidationForm();">
+                        <label>
+                            Email
+                            <input class="form-input" type="email" placeholder="Email" id="register-email">
+                            <p class="error-message" id="error-email">error</p>
+                        </label>
+                        <label>
+                            Username
+                            <input class="form-input" type="text" placeholder="Username" id="register-username">
+                            <p class="error-message">error</p>
+                        </label>
+                        <label>
+                            Senha
+                            <input class="form-input" type="password" placeholder="Password" id="register-password">
+                            <p class="error-message" id="error-password">error</p>
+                        </label>
+                        <label>
+                            Confirmar senha
+                            <input class="form-input" type="password" placeholder="Confirmar password" id="register-confirm-password">
+                            <p class="error-message" id="error-confirm-password">error</p>
+                        </label>
+                        <button class="button-header mg-t-16" type="submit" id="register-button">Registrar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="">
+        <div>
+            <p>Dev by Kal Nascimento</p>
+            <p>Copyright &copy;, 2022</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/script/index.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vetor = [];
+        let vetor2 = [];
+        let finalVetor = [];
+        let index = 0;
+        let index2 = 0;
+
+        for(i = 1; i <= 20; i++){
+            vetor.push(i);
+        }
+
+        for(i = -20; i <= 0; i++){
+            vetor2.push(i);
+        }
+
+        for(i = 0; i <= 39; i++){
+            if(i % 2 === 0){
+                finalVetor.push(vetor[index]);
+                index++
+            }else {
+                finalVetor.push(vetor2[index2]);
+                index2++
+            }
+        }
+
+        alert(`O primeiro vetor é:\n${vetor}\nO segundo vetor é:\n\n${vetor2}\n\nE o vetor final é:\n\n${finalVetor}`)
+    </script>
+</body>
+</html>
